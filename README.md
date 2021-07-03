@@ -39,7 +39,7 @@ In order to use the scripts provided by the MinGW-W64 project it is needed:
   --no-multilib                       - build GCC without multilib support (default for DWARF and SEH exception models).
   --static-gcc                        - build static GCC.
   --dyn-deps                          - build GCC with dynamically dependencies.
-  --rt-version=<v3|v4|v5|v6|v7>       - version of mingw-w64 runtime to build.
+  --rt-version=<v3|v4|v5|v6|v7|v8|v9> - version of mingw-w64 runtime to build.
   --rev=N                             - number of the build revision.
   --with-testsuite                    - run testsuite for packages that contain flags for it.
   --threads=<posix|win32>             - used threads model.
@@ -115,11 +115,15 @@ At the moment, successfully building the following versions:
   gcc-8.2.0
   gcc-8.3.0
   gcc-8.4.0
+  gcc-8.5.0
   gcc-9.1.0
   gcc-9.2.0
   gcc-9.3.0
+  gcc-9.4.0
   gcc-10.1.0
   gcc-10.2.0
+  gcc-10.3.0
+  gcc-11.1.0
   gcc-4.6-branch (currently 4.6.5 prerelease)
   gcc-4.7-branch (currently 4.7.5 prerelease)
   gcc-4.8-branch (currently 4.8.6 prerelease)
@@ -127,10 +131,11 @@ At the moment, successfully building the following versions:
   gcc-5-branch (currently 5.6.0 prerelease)
   gcc-6-branch (currently 6.6.0 prerelease)
   gcc-7-branch (currently 7.6.0 prerelease)
-  gcc-8-branch (currently 8.5.0 prerelease)
-  gcc-9-branch (currently 9.4.0-prerelease)
-  gcc-10-branch (currently 10.3.0-prerelease)
-  gcc-trunk (currently 11.0.0 snapshot)
+  gcc-8-branch (currently 8.6.0 prerelease)
+  gcc-9-branch (currently 9.5.0-prerelease)
+  gcc-10-branch (currently 10.4.0-prerelease)
+  gcc-11-branch (currently 11.2.0-prerelease)
+  gcc-trunk (currently 12.0.0 snapshot)
 ```
 
 Builds also contains patches for building Python 2.7.9 and 3.4.3 versions for support gdb pretty printers.
