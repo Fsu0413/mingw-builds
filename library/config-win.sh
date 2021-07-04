@@ -99,6 +99,7 @@ function func_test_installed_packages {
 		texinfo
 		autogen
 		dejagnu
+		pkg-config
 	)
 
 	local not_installed_packages=()
