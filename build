@@ -328,8 +328,8 @@ while [[ $# > 0 ]]; do
 					RUNTIME_VERSION=v7.0.0
 					RUNTIME_BRANCH="release"
 				;;
-				v8.0.0)
-					RUNTIME_VERSION=v8.0.0
+				v8.0.2)
+					RUNTIME_VERSION=v8.0.2
 					RUNTIME_BRANCH="release"
 				;;
 				v9.0.0)
